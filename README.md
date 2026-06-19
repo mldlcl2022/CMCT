@@ -4,7 +4,9 @@ This is an official implementation of our **MICCAI 2026** paper.
 
 Paper: [Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable Disease Prediction](TBD)
 
-![CMCT](figures/framework.png)
+<p align="center">
+  <img src="figures/framework.png" alt="CMCT Framework" width="1000"/>
+</p>
 
 ## Environments
 - Python:
