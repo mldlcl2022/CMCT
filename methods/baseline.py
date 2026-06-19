@@ -6,13 +6,12 @@ class ImageModel(nn.Module):
     def __init__(
         self,
         model_name: str,
-        pretrained: bool,
-        num_classes: int,
+        num_labels: int,
         dropout: float= 0.2
     ):
         super().__init__()
         
-        # image model #
+        # image model
         if model_name == 'convnext':
             model_name = 'convnext_base'
         elif model_name == 'resnet':
@@ -27,17 +26,17 @@ class ImageModel(nn.Module):
         if 'inception' in model_name:
             self.model = timm.create_model(
                 model_name,
-                pretrained= pretrained,
-                num_classes= num_classes
+                pretrained= True,
+                num_classes= num_labels
             )
         else:
             self.model = timm.create_model(
                 model_name,
-                pretrained= pretrained,
-                num_classes= num_classes,
+                pretrained= True,
+                num_classes= num_labels,
                 drop_path_rate= dropout
             )
     
     def forward(self, x: torch.Tensor):
-        task = self.model(x)
-        return task
+        task_pred = self.model(x)
+        return task_pred
