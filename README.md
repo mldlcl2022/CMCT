@@ -12,13 +12,13 @@ Paper: [Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable
 - GPU: NVIDIA RTX 3090, A100
 
 ### Installation
-'''console
+```console
 (base) user@server:~$ conda create -n cmct python=3.xx -y
 (base) user@server:~$ conda activate cmct
 (cmct) user@server:~$ git clone https://github.com/mldlcl2022/CMCT.git
 (cmct) user@server:~$ cd CMCT
 (cmct) user@server:~CMCT$ pip install -r requirements.txt
-'''
+```
 
 ### Requirements
 - pytorch 2.xx.x
@@ -41,15 +41,15 @@ Using this toolkit, we generated ECG image datasets from the original ECG signal
 ### ECG concept preparation
 Run the following command to extract ECG concepts from the signal datasets. (This takes approximately 20 minutes in our environment.)
 
-'''console
+```console
 (cmct) user@server:~CMCT$ cd datasets
 (cmct) user@server:~CMCT/datasets$ python ecg_concept_extractor.py --data_name <DATA_NAME> --root_dir <ROOT_DIR>
-'''
+```
 
 ### Expected directory structure
 After downloading the datasets into the `signals` directory and completing ECG image and concept preparation, the expected directory structure is shown below using CPSC2018 as an example.
 
-'''text
+```text
 CMCT/
 ├── ...
 └── datasets
@@ -84,4 +84,4 @@ CMCT/
     |   |   └── valid.csv
     ├── ecg_concept_extractor.py
     └── ecg_image_kit.py
-'''
+```
