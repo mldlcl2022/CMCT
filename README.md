@@ -2,7 +2,8 @@
 
 This is an official implementation of **CMCT**, proposed in our **MICCAI 2026** paper.
 
-Paper: [Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable Disease Prediction](TBD)
+Paper: To appear in MICCAI 2026 proceedings.
+<!--[Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable Disease Prediction](TBD)-->
 
 <p align="center">
   <img src="figures/framework.png" alt="CMCT Framework" width="700"/>
