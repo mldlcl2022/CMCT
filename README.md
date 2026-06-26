@@ -26,8 +26,18 @@ Paper: To appear in MICCAI 2026 proceedings.
 ```
 
 #### Requirements
-- pytorch 2.xx.x
-- 
+- torch==2.12.1+cu126
+- torchvision==0.27.1+cu126
+- timm==1.0.27
+- numpy==2.3.3
+- pandas==2.3.3
+- Pillow==11.3.0
+- scikit-learn==1.7.2
+- joblib==1.5.3
+- tqdm==4.67.1
+- wfdb==4.3.1
+- neurokit2==0.2.13
+- tensorboard==2.20.0
 
 ## Datasets
 
