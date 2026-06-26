@@ -100,3 +100,10 @@ CMCT/
     ├── ecg_concept_extractor.py
     └── ecg_image_kit.py
 ```
+
+## Training
+To train CMCT, run the following command:
+
+```console
+(cmct) user@server:~CMCT$ python train_cmct.py --exp_name <EXP_NAME> --data_name <DATA_NAME> --csv_dir <CSV_DIR> --root_dir <ROOT_DIR>
+```
