@@ -16,7 +16,7 @@ Paper: To appear in MICCAI 2026 proceedings.
 - cuDNN: 9.10.2
 - GPU: NVIDIA RTX 3090, A100
 
-**Installation**
+#### Installation
 ```console
 (base) user@server:~$ conda create -n cmct python=3.12.3 -y
 (base) user@server:~$ conda activate cmct
@@ -25,7 +25,7 @@ Paper: To appear in MICCAI 2026 proceedings.
 (cmct) user@server:~CMCT$ pip install -r requirements.txt
 ```
 
-**Requirements**
+#### Requirements
 - torch==2.12.1+cu126
 - torchvision==0.27.1+cu126
 - timm==1.0.27
