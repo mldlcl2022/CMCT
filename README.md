@@ -43,8 +43,8 @@ Paper: To appear in MICCAI 2026 proceedings.
 
 #### Data download
 Datasets we used are as follows:
-- **CPSC2018**: We used the [CPSC2018](http://2018.icbeb.org/Challenge.html) dataset. Since the dataset was not available for download from the official page at the time of our access, we downloaded the data from [PhysioNet](https://physionet.org/content/challenge-2020/1.0.2/training/#files-panel) and used it for our experiments.
-- **PTB-XL**: We downloaded the [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/) dataset from PhysioNet and used it in our experiments.
+- CPSC2018: We used the [CPSC2018](http://2018.icbeb.org/Challenge.html) dataset. Since the dataset was not available for download from the official page at the time of our access, we downloaded the data from [PhysioNet](https://physionet.org/content/challenge-2020/1.0.2/training/#files-panel) and used it for our experiments.
+- PTB-XL: We downloaded the [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/) dataset from PhysioNet and used it in our experiments.
 
 We used the predefined train, valid, and test split csv files released by the authors of "Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement." without modification. We did not create new data splits.
 
