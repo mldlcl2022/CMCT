@@ -10,10 +10,10 @@ Paper: To appear in MICCAI 2026 proceedings.
 </p>
 
 ## Environments
-- Python:
-- PyTorch:
-- CUDA:
-- cuDNN:
+- Python: 3.12.3
+- PyTorch: 2.12.1
+- CUDA: 12.6
+- cuDNN: 9.10.2
 - GPU: NVIDIA RTX 3090, A100
 
 #### Installation
