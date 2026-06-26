@@ -18,7 +18,7 @@ Paper: To appear in MICCAI 2026 proceedings.
 
 #### Installation
 ```console
-(base) user@server:~$ conda create -n cmct python=3.xx -y
+(base) user@server:~$ conda create -n cmct python=3.12.3 -y
 (base) user@server:~$ conda activate cmct
 (cmct) user@server:~$ git clone https://github.com/mldlcl2022/CMCT.git
 (cmct) user@server:~$ cd CMCT
