@@ -1,9 +1,10 @@
 # CMCT: Cross-Modal Concept Transfer
 
-This is an official implementation of **CMCT**, proposed in our **MICCAI 2026** paper.
+This repository contains the official implementation of **CMCT**, proposed in our **MICCAI 2026** paper.
 
-Paper: To appear in MICCAI 2026 proceedings.
-<!--[Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable Disease Prediction](TBD)-->
+The paper was accepted to the International Conference on Medical Image Computing and Computer-Assisted Intervention 2026 (MICCAI 2026), one of the leading international conferences in medical image computing and computer-assisted intervention. **It received an Early Accept decision**, placing it within the top 9% of submissions.
+
+Paper: [Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable Disease Prediction](https://papers.miccai.org/miccai-2026/paper/6146_paper.pdf)
 
 <p align="center">
   <img src="figures/framework.png" alt="CMCT Framework" width="700"/>
