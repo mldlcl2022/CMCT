@@ -6,6 +6,9 @@ The paper was accepted to the International Conference on Medical Image Computin
 
 Paper: [Cross-Modal Concept Transfer: From ECG Signals to Images for Explainable Disease Prediction](https://papers.miccai.org/miccai-2026/paper/6146_paper.pdf)
 
+<br>
+<br>
+
 <p align="center">
   <img src="figures/framework.png" alt="CMCT Framework" width="700"/>
 </p>
