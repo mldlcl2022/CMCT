@@ -109,5 +109,5 @@ CMCT/
 To train CMCT, run the following command:
 
 ```console
-(cmct) user@server:~CMCT$ python train_cmct.py --exp_name <EXP_NAME> --data_name <DATA_NAME> --csv_dir <CSV_DIR> --root_dir <ROOT_DIR>
+(cmct) user@server:~CMCT$ python train_cmct.py --exp_name <EXP_NAME> --data_name <DATA_NAME> --csv_dir <CSV_DIR> --sig_dir <ROOT_DIR>
 ```
