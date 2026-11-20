@@ -22,7 +22,7 @@ def evaluate_cmct(model, device, loader, num_labels):
             
             # task
             t_trues.append(t_gt.cpu().numpy())
-            t_preds.append(t_pred.cpu().numpy())
+            t_preds.append(torch.sigmoid(t_pred).cpu().numpy())
     
     c_trues = np.vstack(c_trues)
     c_preds = np.vstack(c_preds)
